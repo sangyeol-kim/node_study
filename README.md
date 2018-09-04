@@ -7,20 +7,20 @@
   
   #### ex)
   ```
-    var a = {
-      b: {
-        c: function() {
-          console.log(this);
-         }
-      }
+  var a = {
+    b: {
+      c: function() {
+        console.log(this);
+       }
     }
-    a.b.c();
+  }
+  a.b.c();
   ```
   #### return
   ``` return
-        Object { c: function}
-          c: function ()
-          __ proto__ : Object
+  Object { c: function}
+    c: function ()
+    __ proto__ : Object
   ```
         
     
