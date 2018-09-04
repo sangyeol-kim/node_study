@@ -5,25 +5,22 @@
   - window, global
   - 함수 내부에서 this를 호출하면 기본적으로 전역객체가 등장하고 메소드 호출 시 메소드 호출 주체가 호출 됨
   
-  #### ex_1)
+  #### 메소드 호출시_1)
   ```
-  var a = {
+  1) var a = {
     b: function() {
         console.log(this);
     }
   }
   a.b();
   ```
-  #### return
-  ``` return
-  Object {b: function}
+  ``` 1_return)
+  return Object {b: function}
     b: function ()
     __ proto__ : Object
   ```
-  
-  #### ex_2)
   ```
-  var a = {
+  2) var a = {
     b: {
       c: function() {
         console.log(this);
@@ -32,12 +29,13 @@
   }
   a.b.c();
   ```
-  #### return
-  ``` return
+  ``` 2_return)
   Object {c: function}
     c: function ()
     __ proto__ : Object
   ```
+  
+  - 
         
     
 - 
