@@ -13,13 +13,11 @@
     }
   }
   a.b();
-  ```
-  ``` 1_return)
-  return Object {b: function}
-    b: function ()
-    __ proto__ : Object
-  ```
-  ```
+  
+  1_return)
+    Object {b: function}
+      b: function ()
+      __ proto__ : Object
   2) var a = {
     b: {
       c: function() {
@@ -28,11 +26,10 @@
     }
   }
   a.b.c();
-  ```
-  ``` 2_return)
-  Object {c: function}
-    c: function ()
-    __ proto__ : Object
+  2_return)
+    Object {c: function}
+      c: function ()
+      __ proto__ : Object
   ```
   
   - 
