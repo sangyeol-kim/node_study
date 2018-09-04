@@ -5,7 +5,7 @@
   - window, global
   - 함수 내부에서 this를 호출하면 기본적으로 전역객체가 등장하고 메소드 호출 시 메소드 호출 주체가 호출 됨
   
-  ## ex)
+  #### ex)
   ```
     var a = {
       b: {
@@ -16,7 +16,7 @@
     }
     a.b.c();
   ```
-  ## return
+  #### return
   ``` return
         Object { c: function}
           c: function ()
