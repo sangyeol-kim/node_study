@@ -5,7 +5,7 @@
   - window, global
   - 함수 내부에서 this를 호출하면 기본적으로 전역객체가 등장하고 메소드 호출 시 메소드 호출 주체가 호출 됨
   
-  #### 메소드 호출시_1)
+  #### 메소드 호출시)
   ```
   1) var a = {
     b: function() {
@@ -18,6 +18,7 @@
     Object {b: function}
       b: function ()
       __ proto__ : Object
+      
   2) var a = {
     b: {
       c: function() {
@@ -26,11 +27,13 @@
     }
   }
   a.b.c();
+  
   2_return)
     Object {c: function}
       c: function ()
       __ proto__ : Object
   ```
+  => A.()의 this는 A, a.b.c()의 this는 a.b()
   
   - 
         
