@@ -70,6 +70,25 @@
 
   - 생성자 함수의 프로토 타입과 인스턴스 함수의 __proto__는 같은 객체를 참조.
   - __proto__는 내부 property에 접근할 때 생략 가능.
+  
+  - Prototype Chaining
+    - 배열 리터럴은 Array Constructor 함수와 그 Prototype으로 이루어진다.
+    - Array.prototype에는 배열 메소드가 모두 담겨있고 그 자체로 객체이다.
+    - __proto__는 생략 가능하며 배열의 인스턴스가 마치 자신의 인스턴스인 것처럼 호출이 가능하다.
+    - Array.prototype 또한 객체이기 때문에 Prototype Chaining이 완성된다.
+    
+    - 숫자 리터럴은 객체가 아니므로 __proto__가 존재하지 않으며, 스트링도 마찬가지이다.
+    
+    - Object.prototype에는 자바스크립트를 통과하는 공통적인 메소드들이 정의되어 있으며 Prototype Chaining을 통해 접근이 가능하다.
+    - Object.Prototype에는 모든 데이터 타입에 적용되기 때문에 다른 메소드들을 정의할 수가 없다.
+      - 그래서 객체 생성자 함수에 직접 메소드를 정의
+      
+  - 정리
+    - Prototype은 어렵다. 더 공부해야 할듯
+    
+### 6. Class
+
+  - 클래스는 공통적인 특성이며, 클래스에 속한    
       
      
 
