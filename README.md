@@ -1,30 +1,33 @@
-# study
+# Node Study
 
-> A Vue.js project
+### 3. This
+- 전역공간에서의 this는 전역객체를 의미한다.
+  - window, global
+  - 함수 내부에서 this를 호출하면 기본적으로 전역객체가 등장하고 메소드 호출 시 메소드 호출 주체가 호출 됨
+  - ``` ex) var a = {
+          b: {
+            c: function() {
+              console.log(this);
+             }
+          }
+        }
+     ```
+- 
+- 랩탑
+- 시간
+- 열정
+- 카페인
 
-## Build Setup
+### Coverage
+- Javascript ES5, ES6
+- Javascript core
+- AWS EC2, AWS RDS, AWS S3, AWS SQS, AWS rekognition
+- RDBMS (MySQL, MariaDB), NoSQL(MongoDB), Redis
+- CI/CD
 
-``` bash
-# install dependencies
-npm install
+### 최종 세미나 주제
+- AWS 인프라를 사용하여 API 서버 구축및 배포하기
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### 스터디 방향
+- JS의 기초를 학습한다.
+- 기초부터 학습하여 간단한 백엔드 외주를 할 정도까지 학습한다
