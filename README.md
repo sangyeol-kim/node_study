@@ -90,14 +90,14 @@
 
   - 클래스는 공통적인 특성이며, 클래스에 속한 객체를 인스턴스라고 한다.
   - 클래스는 생성자 함수로 생성된 객체와 Prototype을 포함한다.
-  - 프로토타입 property에 할당되어 있지 않고 객체에 직접 할당되어 있는 property
-    - Static methods
-    - Static properies  
-        -> 이들은 생성자 함수를 new 연산자 없이 객체인 함수로서 호출할 때 의미가 있는 값으로서 인스턴스들의 개별적인 동작이 아니라 소속 부여 등 공통체적인 용도로 활용할 때 사용
-  - Prototype에 내부에 정의된 메소드
-    - Prototype Methods (Methods)
-    
-  - instance는 Prototype Methods에 접근이 가능하지만 생성자 함수 내부에 있는 메서드에는 접근이 불가능하다.
+  - Property
+    - 프로토타입 property에 할당되어 있지 않고 객체에 직접 할당되어 있는 property
+      - Static methods
+      - Static properies  
+          -> 이들은 생성자 함수를 new 연산자 없이 객체인 함수로서 호출할 때 의미가 있는 값으로서 인스턴스들의 개별적인 동작이 아니라 소속 부여 등 공통체적인 용도로 활용할 때 사용
+      - Prototype에 내부에 정의된 메소드
+        - Prototype Methods (Methods)
+      - instance는 Prototype Methods에 접근이 가능하지만 생성자 함수 내부에 있는 메서드에는 접근이 불가능하다.
 
   
   
