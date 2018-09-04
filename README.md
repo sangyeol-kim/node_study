@@ -56,6 +56,7 @@
   - Closure를 이용한 Private Member
     - 1. 함수에서 지역변수 및 내부함수 등을 생성한다.
       2. 외부에 노출시키고자 하는 멤버들로 구성된 객체를 return한다.
+      
         -> return한 객체에 포함되지 않은 멤버들은 private.
         -> return한 객체에 포함된 멤버들은 public
   - 정리
